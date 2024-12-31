@@ -3,7 +3,10 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
-remappings = ['@openzeppelin-contracts/=lib/openzeppelin/']
+remappings = [
+    '@openzeppelin-contracts/=lib/openzeppelin/',
+    'foundry-devops/src/=lib/foundry-devops/src',
+]
 
 fs_permissions = [{ access = "read-write", path = "./" }]
 

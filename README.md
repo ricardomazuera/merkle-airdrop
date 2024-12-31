@@ -6,3 +6,4 @@ This is a simple implementation of a Merkle Airdrop.
 
 - OpenZeppelin/openzeppelin-contracts
 - dmfxyz/murky
+- Cyfrin/foundry-devops
